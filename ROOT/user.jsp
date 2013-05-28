@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<h2 style="margin-left:5px;"><%=session.getAttribute("nickname") %></h2>
+<h2><%=session.getAttribute("nickname") %></h2>
 <table>
 	<tr>
 		<td>
@@ -26,8 +26,8 @@
 									<input type="text" name"chat" id="textinput" placeholder="Text">
 								</td>					
 								<td>
-									<div style="margin-left:1px;padding-right:2px;" align="left">
-										<input name="Send" class="button" value="Send" type="button" style="width:20px; margin-top:5px; margin-left:2px">
+									<div id="buttondiv" align="left">
+										<input name="Send" class="button" id="chatbutton"value="Send" type="button">
 									</div>
 								</td>
 							</tr>
@@ -46,8 +46,8 @@
 			<div id="sidebar">
 				Queue
 			</div>
-			<div style="margin-left:1px;padding-right:2px;" align="center">
-				<input name="classify" class="button" value="Enter" type="button" style="margin-top:5px; margin-left:2px">
+			<div id="buttondiv" align="center">
+				<input name="classify" class="button" value="Enter" type="button" id="enter">
 			</div>
 		</td>
 	</tr>
@@ -73,22 +73,22 @@
 					<td valign="baseline">
 						<table>
 							<tr>
-								<div id="control" align="center" style="margin-left:80px; padding-right:5px;" style="margin-top:200px;">
-									<input name="Up" class="button" value="Up" type="button" style="width:20px;">
+								<div id="divup" align="center" >
+									<input name="Up" class="button" value="Up" type="button" id="control">
 								</div>
 								<td>
-									<div id="control" align="center" style="margin-left:10px; padding-right:2px;">
-										<input name="Left" class="button" value="Left" type="button" style="width:20px;">
+									<div id="divleft" align="center">
+										<input name="Left" class="button" value="Left" type="button" id="control">
 									</div>
 								</td>
 								<td>
-									<div id="control" style="margin-left:3px;padding-right:2px;">
-										<input name="Back" class="button" value="Back" type="button" style="width:20px;">
+									<div id="divback">
+										<input name="Back" class="button" value="Back" type="button" id="control">
 									</div>
 								</td>
 								<td>
-									<div id="control" style="margin-left:3px;padding-right:2px;">
-										<input name="Right" class="button" value="Right" type="button" style="width:20px;">
+									<div id="divright" style="">
+										<input name="Right" class="button" value="Right" type="button" id="control">
 									</div>
 								</td>
 							</tr>
@@ -97,10 +97,10 @@
 					<div >
 					<td valign="baseline">
 						<div id="setting">
-							<input name="light" class="button" value="Light on" type="button" style="width:200px;">
+							<input name="light" class="button" value="Light on" type="button" id="addset">
 						</div>
 						<div id="setting">
-							<input name="horn" class="button" value="Horn" type="button" style="width:200px;">
+							<input name="horn" class="button" value="Horn" type="button" id="addset">
 						</div>
 					</td>
 					</div>

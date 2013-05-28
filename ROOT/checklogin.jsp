@@ -1,5 +1,4 @@
 <%
-		
 String username = request.getParameter("nickname");
 session.setAttribute("nickname", username);	
 		if (username.equals("admin")){			

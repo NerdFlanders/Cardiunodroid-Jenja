@@ -44,6 +44,94 @@ font-family:tahoma;
     margin-top: 4px;
  }
 
+h2{
+    margin-left:5px;
+}
+
+#chatbutton{
+    width:20px; 
+    margin-top:5px; 
+    margin-left:2px
+}
+
+#buttondiv{
+    margin-left:1px;
+    padding-right:2px;
+}
+
+#enter{
+    margin-top:5px; 
+    margin-left:2px;
+}
+
+#divup{
+    margin-left:80px; 
+    padding-right:5px;" 
+    margin-top:200px;
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    padding-left: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),
+        0 1px 5px rgba(0,0,0,0.2),
+        0 0 0 12px rgba(255,255,255,0.4);
+}
+
+#divleft{
+    margin-left:10px; 
+    padding-right:2px;
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    padding-left: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+    margin-top: 10px;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),
+        0 1px 5px rgba(0,0,0,0.2),
+        0 0 0 12px rgba(255,255,255,0.4);
+}
+
+#divback{
+    margin-left:3px;
+    padding-right:2px;
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    padding-left: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+    margin-top: 10px;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),
+        0 1px 5px rgba(0,0,0,0.2),
+        0 0 0 12px rgba(255,255,255,0.4);
+}
+
+#divright{
+    margin-left:3px;
+    padding-right:2px;
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    padding-left: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 60px;
+    margin-top: 10px;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),
+        0 1px 5px rgba(0,0,0,0.2),
+        0 0 0 12px rgba(255,255,255,0.4);
+}
+
 #text{
     border:1px solid #ECD6BF;
     margin-left:3px;
@@ -73,21 +161,12 @@ font-family:tahoma;
 }
 
 #control{
-	background: #fffaf6;
-    border-radius: 4px;
-    color: #7e7975;
-    padding-left: 1px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    width: 60px;
-    margin-top: 10px;
-    margin-left: 60px;
-    box-shadow:
-        0 2px 2px rgba(0,0,0,0.2),
-        0 1px 5px rgba(0,0,0,0.2),
-        0 0 0 12px rgba(255,255,255,0.4);
+	width:20px;
 }
 
+#addset{
+    width:200px;
+}
 
 .button {
 -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;

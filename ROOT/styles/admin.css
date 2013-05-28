@@ -16,6 +16,10 @@ font-family:tahoma;
         0 0 0 12px rgba(255,255,255,0.4);
 }
 
+#rightsinput{
+	margin-top:20px;
+}
+
 #textinput{
 	border:1px solid #ECD6BF;
 	margin-left:10px;
@@ -23,6 +27,32 @@ font-family:tahoma;
 	padding:3px;
 	border-radius: 4px;
 	margin:4px;
+}
+
+.h3{
+	margin-left:10px;
+}
+
+#filter{
+	margin-left:5px;
+}
+
+#subfilter{
+	margin-top:80px;
+}
+
+#password{
+	border:1px solid #ECD6BF;
+	margin-left:10px;
+	margin-right:auto;
+	margin-top:20px;
+	padding:3px;
+	border-radius: 4px;
+	margin:4px;
+}
+
+#createbutton{
+	margin-top:20px;
 }
 
 #left{

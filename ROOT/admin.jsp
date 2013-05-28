@@ -8,10 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="../styles/admin.css" />
 
-<script type="text/javascript" language="javascript" src="../carduinodroid/carduinodroid.nocache.js"></script>
-
 </head>
-
 <body>
 <center><img src="../pics/Logofin.png"></center>
 <table align="center">
@@ -27,29 +24,29 @@
         		</tr>
         		<tr>
 		    		<td for="password" Style="padding-top:15px;">Password:</td>
-            		<td><input type="password" name="password" id="textinput" placeholder="Password" Style="margin-top:20px;"/></td>
+            		<td><input type="password" name="password" id="password" placeholder="Password" /></td>
         		</tr>
-        		<tr Style="margin-top:20px;">
+        		<tr>
 					<td for="rights"Style="padding-top:15px;">Rights:</td>
-            		<td><input type="Radio" name="rights" id="rightsinput" value="User" Style="margin-top:20px;"/>User
-            			<input type="Radio" name="rights" id="rightsinput" value="Admin" Style="margin-top:20px;"/>Admin</td>
+            		<td><input type="Radio" name="rights" id="rightsinput" value="User" />User
+            			<input type="Radio" name="rights" id="rightsinput" value="Admin"/>Admin</td>
         		</tr>
         			<td>&nbsp;</td>
-					<center><td><input class="submit" name="create" type="submit" value="Create" Style="margin-top:20px;"</a></td></center>       	
+					<center><td><input class="submit" id="createbutton" name="create" type="submit" value="Create"</a></td></center>       	
 			</table>
 		</form>		
 	</div>
 	</td> 	
 	<td ><!-- Spalte 2 -->
 		<div id="left" >
-		<h3 style="margin-left:10px;">Log</h3>
+		<h3>Log</h3>
 		<textarea id="logging">
 hallo <%=session.getAttribute("nickname") %>
 		</textarea>
 		</div>	
 	</td>
-	<td valign="baseline" style="margin-left:5px;">
-		Filter<br style="margin-top:80px;">
+	<td valign="baseline" id="filter">
+		Filter<br id="subfilter">
 			<input type="radio" name="set" value="All">All<br>
 			<input type="radio" name="set" value="Login and Logout Time">Login and Logout Time<br>	
 			<input type="radio" name="set" value="GPS">GPS Position<br>	

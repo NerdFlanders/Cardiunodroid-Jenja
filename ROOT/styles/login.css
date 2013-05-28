@@ -51,6 +51,10 @@ overflow:auto;
     margin:4px;
 }
 
+#border{
+    border-color:FFFFFF;
+}
+
 p{
     background: #fffaf6;
     border-radius: 4px;

@@ -21,8 +21,8 @@
 						</textarea>
 					</td>					
 					<td>
-						<div style="margin-left:1px;padding-right:2px;" align="left">
-							<input name="Send" class="button" value="Send" type="button" style="width:20px; margin-top:5px; margin-left:2px">
+						<div id="divchat" align="left">
+							<input name="Send" class="button" value="Send" type="button" id="chatbutton">
 						</div>
 					</td>
 				</tr>
